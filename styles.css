@@ -7,30 +7,26 @@
 .logo {
   height: 28px;
 }
-
+ 
 .title {
-  position: absolute;
-  width: max-content;
-  height: 34px;
-  left: 48px;
-  top: 90px;
+  position: relative;
+  margin-top: 100%;
+  margin-left: 2.5%;
   font-family: Arial, Helvetica, sans-serif;
   font: bold;
   font-style: bold;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 29px;
+  font-size: 260%;
   color: #000000;
 }
 
 hr.solid {
   border: 0;
   border-top: 4px solid #bbb;
-  position: absolute;
-  width: 1440px;
-  height: 22px;
-  left: 48px;
-  top: 120px;
+  margin-top: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
 }
 
 .atlastable {
@@ -44,7 +40,7 @@ hr.solid {
 }
 
 .tablecontainer {
-  margin-top: 6%;
+  margin-top: 1%;
   margin-bottom: 6%;
   margin-left: auto;
   margin-right: auto;
