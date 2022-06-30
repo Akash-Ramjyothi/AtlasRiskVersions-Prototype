@@ -10,11 +10,11 @@
 
 .title {
   position: absolute;
-  width: 266px;
+  width: max-content;
   height: 34px;
   left: 48px;
   top: 90px;
-  font-family: 'Arial, Helvetica, sans-serif';
+  font-family: Arial, Helvetica, sans-serif;
   font: bold;
   font-style: bold;
   font-weight: 700;
@@ -34,34 +34,85 @@ hr.solid {
 
 }
 
-.atlastable{
+.atlastable {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+
+  border-left: 1px solid rgba(2, 0, 0, 0);
+  border-right: 1px solid rgba(2, 0, 0, 0);
+  border-bottom: 2px solid #bbb;
 }
 
-.tablecontainer{
+.tablecontainer {
   margin-top: 6%;
   margin-bottom: 6%;
   margin-left: auto;
   margin-right: auto;
   overflow-y: scroll;
   height: 560px;
-  border-style: solid;
-  border-width: 1px;
   width: 80%;
+
+  border-style: solid;
+  border-width: 2px;
+  border-left: 3px solid #bbb;
+  border-right: 3px solid #bbb;
+  border-bottom: 3px solid #bbb;
+  border-top: 3px solid #bbb;
+  border-radius: 10px;
 }
 
-.atlasheading{
+.tablecontainer::-webkit-scrollbar {
+  width: 14px;
+  height: 12px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.tablecontainer::-webkit-scrollbar-thumb{
+  background: #004563;
+  border-radius: 10px;
+}
+
+.atlasheading {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.modules > div > div{
-  border:1px solid black;
+.modules>div>div {
+  padding-top: 6px;
+  border-bottom: 3px solid #bbb;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.environment > div{
-  border:1px solid black;
-} 
+.environment>div {
+  padding-top: 6px;
+  border-bottom: 3px solid #bbb;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.version>div>div {
+  padding-top: 6px;
+  border-bottom: 3px solid #bbb;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tableheading>th {
+  background-color: #00000028;
+  font-size: 18px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #004563;
+}
+
+.region{
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
