@@ -31,7 +31,6 @@ hr.solid {
   height: 22px;
   left: 48px;
   top: 120px;
-
 }
 
 .atlastable {
@@ -94,6 +93,10 @@ hr.solid {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Making 2nd Div border invisible. */
+.environment>div:nth-child(2) {
+  border-bottom: 0px solid rgb(187, 187, 187);
+}
 .version>div>div {
   padding-top: 6px;
   border-bottom: 3px solid #bbb;
@@ -115,4 +118,8 @@ hr.solid {
   text-align: center;
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.accordioncall{
+  
 }
