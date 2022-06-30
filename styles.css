@@ -61,3 +61,7 @@ hr.solid {
 .modules > div > div{
   border:1px solid black;
 }
+
+.environment > div{
+  border:1px solid black;
+} 
