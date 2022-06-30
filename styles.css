@@ -123,3 +123,17 @@ hr.solid {
 .accordioncall{
   
 }
+
+.content{
+  position: relative;
+  background-color: #fff;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  overflow-y: auto;
+}
+
+.active .content{
+  height: 150px;
+  padding: 10px;
+}
