@@ -7,11 +7,13 @@
 //   })
 // }
 
-const normalDiv = document.getElementById("clickme");
+//  Atul's code:
 
-normalDiv.addEventListener("click", () => {
+// const normalDiv = document.getElementById("clickme");
 
-  const hiddenDiv = document.getElementById("myid");
+// normalDiv.addEventListener("click", () => {
 
-  hiddenDiv.style.display = hiddenDiv.style.display === "block" ?  "none" : "block";
-})
+//   const hiddenDiv = document.getElementById("myid");
+
+//   hiddenDiv.style.display = hiddenDiv.style.display === "block" ?  "none" : "block";
+// })
