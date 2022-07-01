@@ -120,9 +120,10 @@ hr.solid {
 
 .content{
   position: relative;
-  background-color: #fff;
-  transition: 0.5s;
+  background-color: red;
+  transition: 2s;
   overflow-y: auto;
-  display: block;
+  width: fit-content;
+  display: none;
 }
 
