@@ -82,6 +82,8 @@ hr.solid {
   border-bottom: 3px solid #bbb;
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
+
+  cursor: pointer;
 }
 
 .environment>div {
@@ -121,7 +123,6 @@ hr.solid {
 .content{
   position: relative;
   background-color: red;
-  transition: 2s;
   overflow-y: auto;
   width: fit-content;
   display: none;
