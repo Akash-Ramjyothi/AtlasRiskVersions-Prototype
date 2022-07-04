@@ -18,6 +18,13 @@
           active: false,
         });
       });
+
+      $(function () {
+        $("#accordiontwo").accordion({
+          collapsible: true,
+          active: false,
+        });
+      });
     </script>
   </head>
 
@@ -103,10 +110,55 @@
               
             </div>
             
-            <div>
+            <div id="accordiontwo">
               <div>Server</div>
+              <div class="content" id="myid">
+                <table class="tableresult" id="tableId" border="2" cellspacing="0" cellpadding="6">
+                  <tr>
+                    <th>TYPE</th>
+                    <th>PROCESSINSTANCE</th>
+                    <th>LATEST_RUN</th>
+                  </tr>
+                  <tr>
+                    <td>AggWebServer</td>
+                    <td>Convertibles</td>
+                    <td>2022-06-14 10:01:52:512</td>
+                  </tr>
+                </table>        
+              </div>
+
               <div>Coherence</div>
+              <div class="content" id="myid">
+                <table class="tableresult" id="tableId" border="2" cellspacing="0" cellpadding="6">
+                  <tr>
+                    <th>TYPE</th>
+                    <th>PROCESSINSTANCE</th>
+                    <th>LATEST_RUN</th>
+                  </tr>
+                  <tr>
+                    <td>AggWebServer</td>
+                    <td>Convertibles</td>
+                    <td>2022-06-14 10:01:52:512</td>
+                  </tr>
+                </table>        
+              </div>
+
               <div>UI</div>
+              <div class="content" id="myid">
+                <table class="tableresult" id="tableId" border="2" cellspacing="0" cellpadding="6">
+                  <tr>
+                    <th>TYPE</th>
+                    <th>PROCESSINSTANCE</th>
+                    <th>LATEST_RUN</th>
+                  </tr>
+                  <tr>
+                    <td>AggWebServer</td>
+                    <td>Convertibles</td>
+                    <td>2022-06-14 10:01:52:512</td>
+                  </tr>
+                </table>        
+              </div>
+              
             </div>
           </td>
           <td class="version">
