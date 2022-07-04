@@ -134,3 +134,9 @@ hr.solid {
 
   border-radius: 8px;
 }
+
+.clipboard{
+  height: fit-content;
+  background-color: #4dd2ff;
+  padding-top: 10px;
+}
